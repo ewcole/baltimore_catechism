@@ -1,0 +1,3 @@
+The Baltimore Catechism was the official American catholic catechism from long before my parents were young.  It was a clear and thorough introduction to the Faith.
+
+This project takes the full text of the Project Gutenberg edition of the catechism found at [archive.org](http://archive.org/stream/baltimorecatechi14551gut/14551.txt), and adds an ANTLR 4 grammar to parse it, so that it can be converted into a machine-readable format.
