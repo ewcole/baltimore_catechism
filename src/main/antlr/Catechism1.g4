@@ -4,11 +4,11 @@ grammar Catechism1;
 
 file: .*? catechism .*;
 
-catechism: .*?
+catechism: .*?;
 
-WS : [ \T]+ -> channel(HIDDEN);
+WS : [ \t]+ -> channel(HIDDEN);
 CRLF : '\r'? '\n';
 
 
 /** Default token to catch everything else */
-WORD: ~(WS | CRLF)+;
+WORD: [^ \t\r\n]+;
