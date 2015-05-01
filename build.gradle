@@ -1,10 +1,56 @@
-apply plugin: 'antlr';
+//apply plugin: 'antlr';
 apply plugin: 'groovy';
 
 repositories {
     mavenCentral()
 }
+// https://github.com/ae6rt/gradle-antlr4-template/blob/master/build.gradle
+ext.antlr = [
+        grammarpackage: "baltimore_catechism",
+        antlrSource: 'src/main/antlr',
+        destinationDir: "build/generated-sources/java"
+]
+
+configurations {
+    antlr4 {
+        description = "ANTLR4"
+    }
+}
 
 dependencies {
-    antlr "org.antlr:antlr:4.5" // use ANTLR version 4
+  // compile 'org.antlr:antlr4-maven-plugin:4.5'
+  compile 'org.antlr:antlr4:4.5'
+  //antlr "org.antlr:antlr:4.5" // use ANTLR version 4
+  antlr4 group: "org.antlr", name: "antlr4", version: "4.5"
+    
+}
+
+task antlrOutputDir << {
+    mkdir(antlr.destinationDir)
+}
+
+task generateGrammarSource(dependsOn: antlrOutputDir, type: JavaExec) {
+    description = 'Generates Java sources from ANTLR4 grammars.'
+
+    inputs.dir file(antlr.antlrSource)
+    outputs.dir file(antlr.destinationDir)
+
+    def grammars = fileTree(antlr.antlrSource).include('**/*.g4')
+
+    main = 'org.antlr.v4.Tool'
+    classpath = configurations.antlr4
+    def pkg = antlr.grammarpackage.replaceAll("\\.", "/")
+    args = ["-o", "${antlr.destinationDir}/${pkg}"/*, "-atn"*/, 
+            "-visitor", 
+            "-package", antlr.grammarpackage, 
+            grammars.files].flatten()
+}
+
+compileJava {
+    dependsOn generateGrammarSource
+    source antlr.destinationDir
+}
+
+clean {
+    delete antlr.destinationDir
 }
