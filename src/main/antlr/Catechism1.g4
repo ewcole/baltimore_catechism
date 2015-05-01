@@ -11,9 +11,11 @@ question: CRLF+  qNum QQ text CRLF AA text list? CRLF+;
 qNum: QNUM;
 list: listItem+;
 listItem: CRLF lnum text;
+text: txt (note txt)*;
 lnum: QNUM;
 ordinal: ORDINAL;
 title:   ~CRLF+;
+note:  BEGIN_NOTE txt END_NOTE;
 CATECHISM: 'CATECHISM';
 LESSON:    'LESSON';
 MORNING_PRAYERS: 'MORNING PRAYERS';
@@ -60,6 +62,9 @@ QQ: 'Q.';
 AA: 'A.';
 
 /** Default token to catch everything else */
-WORD: ~[ \t\r\n]+;
+WORD: ~[ \t\r\n\}]+;
 
-text: .*?;
+BEGIN_NOTE: '{' ('Transcriber\'s Note' | 'T.N.') ':';
+END_NOTE:   '}';
+
+txt: .*?;
