@@ -6,6 +6,6 @@ setlocal EnableDelayedExpansion
     for %%f in (%groovy_home%\embeddable\*.jar) do (
         set classpath=!classpath!;%%~sf
     )
-    set classpath=%classpath%;%cJar%
+set classpath
     java baltimore_catechism.CatechismReader %~dp0\GutenbergBaltimoreCatechism1.txt
 endlocal

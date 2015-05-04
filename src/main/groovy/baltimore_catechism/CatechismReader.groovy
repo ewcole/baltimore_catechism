@@ -102,49 +102,19 @@ public class CatechismReader extends Catechism1BaseListener {
               text: tokens.getText(ctx.text())])
   }
 
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void enterText(Catechism1Parser.TextContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitText(Catechism1Parser.TextContext ctx) { }
-
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void enterEveryRule(ParserRuleContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitEveryRule(ParserRuleContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void visitTerminal(TerminalNode node) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
   @Override public void visitErrorNode(ErrorNode node) { }
 
+  /** Create a new CatechismReader object.  
+   *  @param parser A Catechism1Parser.  It's needed because we are sending
+   *                whitespace to the HIDDEN channel.
+   */
   public CatechismReader(Catechism1Parser parser) {
     this.parser = parser;
     this.tokens = parser.getTokenStream();
   }
 
+  /** Parse the input stream using the Catechism1 parser
+   */
   public static readCatechism(Reader r) {
     def input = new ANTLRInputStream(r);
     def lexer = new Catechism1Lexer(input);
@@ -157,8 +127,12 @@ public class CatechismReader extends Catechism1BaseListener {
     return cr.catechism
   }
 
+  /** Read the input file and write the output file */
   public static void main(String[] args) {
-    def inputFile = new File(args[0]);
+    def cli = new CliBuilder(usage: "parse the input file");
+    cli.j(longOpt: 'json_file', args: 1, "JSON output file name");
+    def opt = cli.parse(args);
+    def inputFile = new File(opt.arguments[0]);
     assert inputFile.exists()
     def bc = CatechismReader.readCatechism(inputFile.newReader())
     println bc
