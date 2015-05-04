@@ -4,18 +4,31 @@ import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
+import org.antlr.v4.runtime.*;
+import org.antlr.v4.runtime.tree.*;
 
 /**
  * 
  */
 public class CatechismReader extends Catechism1BaseListener {
 
+  def catechism
+  def lesson
+  def question
+  def qq
+  def aa
+
+  Catechism1Parser parser;
+  TokenStream tokens = parser.getTokenStream();
+  
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>Remove the catechism data at the beginning of the file.</p>
    */
-  @Override public void enterFile(Catechism1Parser.FileContext ctx) { }
+  @Override public void enterFile(Catechism1Parser.FileContext ctx) { 
+    catechism = null;
+  }
   /**
    * {@inheritDoc}
    *
@@ -25,9 +38,11 @@ public class CatechismReader extends Catechism1BaseListener {
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>Create an empty catechism object.</p>
    */
-  @Override public void enterCatechism(Catechism1Parser.CatechismContext ctx) { }
+  @Override public void enterCatechism(Catechism1Parser.CatechismContext ctx) {
+    catechism = [lessons: []]
+  }
   /**
    * {@inheritDoc}
    *
@@ -37,15 +52,20 @@ public class CatechismReader extends Catechism1BaseListener {
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>start a new lesson.</p>
    */
-  @Override public void enterLesson(Catechism1Parser.LessonContext ctx) { }
+  @Override public void enterLesson(Catechism1Parser.LessonContext ctx) { 
+    lesson = [number: "${ctx.ordinal().text}", title: "${tokens.getText(ctx.title())}", questions: []]
+  }
   /**
    * {@inheritDoc}
    *
    * <p>The default implementation does nothing.</p>
    */
-  @Override public void exitLesson(Catechism1Parser.LessonContext ctx) { }
+  @Override public void exitLesson(Catechism1Parser.LessonContext ctx) { 
+    catechism.lessons << lesson;
+    lesson = null;
+  }
   /**
    * {@inheritDoc}
    *
@@ -167,4 +187,29 @@ public class CatechismReader extends Catechism1BaseListener {
    * <p>The default implementation does nothing.</p>
    */
   @Override public void visitErrorNode(ErrorNode node) { }
+
+  public CatechismReader(Catechism1Parser parser) {
+    this.parser = parser;
+    this.tokens = parser.getTokenStream();
+  }
+
+  public static readCatechism(Reader r) {
+    def input = new ANTLRInputStream(r);
+    def lexer = new Catechism1Lexer(input);
+    def tokens = new CommonTokenStream(lexer);
+    def parser = new Catechism1Parser(tokens);
+    def tree = parser.file()
+    def walker = new ParseTreeWalker()
+    def cr = new CatechismReader(parser)
+    walker.walk(cr, tree)
+    return cr.catechism
+  }
+
+  public static void main(String[] args) {
+    def inputFile = new File(args[0]);
+    assert inputFile.exists()
+    def bc = CatechismReader.readCatechism(inputFile.newReader())
+    println bc
+  }
+ 
 }
