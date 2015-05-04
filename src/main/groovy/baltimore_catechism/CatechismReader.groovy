@@ -30,12 +30,7 @@ public class CatechismReader extends Catechism1BaseListener {
   @Override public void enterFile(Catechism1Parser.FileContext ctx) { 
     catechism = null;
   }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitFile(Catechism1Parser.FileContext ctx) { }
+
   /**
    * {@inheritDoc}
    *
@@ -44,12 +39,7 @@ public class CatechismReader extends Catechism1BaseListener {
   @Override public void enterCatechism(Catechism1Parser.CatechismContext ctx) {
     catechism = [lessons: []]
   }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitCatechism(Catechism1Parser.CatechismContext ctx) { }
+
   /**
    * {@inheritDoc}
    *
@@ -58,19 +48,21 @@ public class CatechismReader extends Catechism1BaseListener {
   @Override public void enterLesson(Catechism1Parser.LessonContext ctx) { 
     lesson = [number: "${ctx.ordinal().text}", title: "${tokens.getText(ctx.title())}", questions: []]
   }
+
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>Save the lesson on the end of the list of lessons for the catechism.</p>
    */
   @Override public void exitLesson(Catechism1Parser.LessonContext ctx) { 
     catechism.lessons << lesson;
     lesson = null;
   }
+
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>Create a new, blank question.</p>
    */
   @Override public void enterQuestion(Catechism1Parser.QuestionContext ctx) { 
     question = [number:   ctx.qNum().text.replaceAll(/\.$/,''),
@@ -80,19 +72,21 @@ public class CatechismReader extends Catechism1BaseListener {
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>Save the current question.</p>
    */
   @Override public void exitQuestion(Catechism1Parser.QuestionContext ctx) { 
     lesson.questions << question
   }
 
+  /** Create a new list answer for the current question.
+   */
   @Override public void enterList(Catechism1Parser.ListContext ctx) {
     list = []
   }
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>Save the list answer to the current question.</p>
    */
   @Override public void exitList(Catechism1Parser.ListContext ctx) { 
     question.list = list
@@ -100,54 +94,14 @@ public class CatechismReader extends Catechism1BaseListener {
   /**
    * {@inheritDoc}
    *
-   * <p>The default implementation does nothing.</p>
+   * <p>Add a new item to the answer list for the current question.</p>
    */
   @Override public void enterListItem(Catechism1Parser.ListItemContext ctx) {
     // assert list instanceof ArrayList
-    list.add([number: ctx.lnum().text.replaceAll(/\.$/,''), text: tokens.getText(ctx.text())])
+    list.add([number: ctx.lnum().text.replaceAll(/\.$/,''), 
+              text: tokens.getText(ctx.text())])
   }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitListItem(Catechism1Parser.ListItemContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void enterLnum(Catechism1Parser.LnumContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitLnum(Catechism1Parser.LnumContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void enterOrdinal(Catechism1Parser.OrdinalContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitOrdinal(Catechism1Parser.OrdinalContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void enterTitle(Catechism1Parser.TitleContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitTitle(Catechism1Parser.TitleContext ctx) { }
+
   /**
    * {@inheritDoc}
    *

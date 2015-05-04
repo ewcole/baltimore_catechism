@@ -1,6 +1,8 @@
 @echo off
 setlocal EnableDelayedExpansion
-    set cJar=%~dp0\build\libs\BaltimoreCatechism.jar
+    for %%j in (%~dp0\build\libs\*.jar) do (
+        set classpath=%%~sj;!classpath!
+    )
     for %%f in (%groovy_home%\embeddable\*.jar) do (
         set classpath=!classpath!;%%~sf
     )
