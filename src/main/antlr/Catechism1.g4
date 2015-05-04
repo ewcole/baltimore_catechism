@@ -7,8 +7,10 @@ file: text catechism  MORNING_PRAYERS text;
 catechism: CRLF CATECHISM CRLF+ lesson+;
 
 lesson: CRLF LESSON ordinal CRLF title question+;
-question: CRLF+  qNum QQ text CRLF AA text list? CRLF+;
+question: CRLF+  qNum QQ qText CRLF AA aText list? CRLF+;
 qNum: QNUM;
+qText: text;
+aText: text;
 list: listItem+;
 listItem: CRLF lnum text;
 text: txt (note txt)*;

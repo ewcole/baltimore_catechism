@@ -17,6 +17,7 @@ public class CatechismReader extends Catechism1BaseListener {
   def question
   def qq
   def aa
+  def list
 
   Catechism1Parser parser;
   TokenStream tokens = parser.getTokenStream();
@@ -71,43 +72,40 @@ public class CatechismReader extends Catechism1BaseListener {
    *
    * <p>The default implementation does nothing.</p>
    */
-  @Override public void enterQuestion(Catechism1Parser.QuestionContext ctx) { }
+  @Override public void enterQuestion(Catechism1Parser.QuestionContext ctx) { 
+    question = [number:   ctx.qNum().text.replaceAll(/\.$/,''),
+                question: "${tokens.getText(ctx.qText())}",
+                answer:   "${tokens.getText(ctx.aText())}"]
+  }
   /**
    * {@inheritDoc}
    *
    * <p>The default implementation does nothing.</p>
    */
-  @Override public void exitQuestion(Catechism1Parser.QuestionContext ctx) { }
+  @Override public void exitQuestion(Catechism1Parser.QuestionContext ctx) { 
+    lesson.questions << question
+  }
+
+  @Override public void enterList(Catechism1Parser.ListContext ctx) {
+    list = []
+  }
   /**
    * {@inheritDoc}
    *
    * <p>The default implementation does nothing.</p>
    */
-  @Override public void enterQNum(Catechism1Parser.QNumContext ctx) { }
+  @Override public void exitList(Catechism1Parser.ListContext ctx) { 
+    question.list = list
+  }
   /**
    * {@inheritDoc}
    *
    * <p>The default implementation does nothing.</p>
    */
-  @Override public void exitQNum(Catechism1Parser.QNumContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void enterList(Catechism1Parser.ListContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void exitList(Catechism1Parser.ListContext ctx) { }
-  /**
-   * {@inheritDoc}
-   *
-   * <p>The default implementation does nothing.</p>
-   */
-  @Override public void enterListItem(Catechism1Parser.ListItemContext ctx) { }
+  @Override public void enterListItem(Catechism1Parser.ListItemContext ctx) {
+    assert list instanceof ArrayList
+    list.add([number: ctx.lnum().text, tokens.getText(ctx.text())])
+  }
   /**
    * {@inheritDoc}
    *
