@@ -103,8 +103,8 @@ public class CatechismReader extends Catechism1BaseListener {
    * <p>The default implementation does nothing.</p>
    */
   @Override public void enterListItem(Catechism1Parser.ListItemContext ctx) {
-    assert list instanceof ArrayList
-    list.add([number: ctx.lnum().text, tokens.getText(ctx.text())])
+    // assert list instanceof ArrayList
+    list.add([number: ctx.lnum().text.replaceAll(/\.$/,''), text: tokens.getText(ctx.text())])
   }
   /**
    * {@inheritDoc}
