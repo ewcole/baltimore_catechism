@@ -129,10 +129,10 @@ public class CatechismReader extends Catechism1BaseListener {
 
   /** Read the input file and write the output file */
   public static void main(String[] args) {
-    def cli = new CliBuilder(usage: "parse the input file");
-    cli.j(longOpt: 'json_file', args: 1, "JSON output file name");
-    def opt = cli.parse(args);
-    def inputFile = new File(opt.arguments[0]);
+    // def cli = new CliBuilder(usage: "parse the input file");
+    // cli.j(longOpt: 'json_file', args: 1, "JSON output file name");
+    // def opt = cli.parse(args);
+    def inputFile = new File(args[0]);
     assert inputFile.exists()
     def bc = CatechismReader.readCatechism(inputFile.newReader())
     println bc
