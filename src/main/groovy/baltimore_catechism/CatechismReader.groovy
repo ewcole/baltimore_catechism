@@ -7,6 +7,8 @@ import org.antlr.v4.runtime.tree.TerminalNode;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
 
+import groovy.json.*;
+import groovy.xml.*;
 /**
  * 
  */
@@ -160,6 +162,24 @@ public class CatechismReader extends Catechism1BaseListener {
     return cr.catechism
   }
 
+  public static String catechism2Json(def catechism) {
+    def j = new JsonOutput()
+    j.prettyPrint(j.toJson(catechism));
+  }
+
+  // public static String catechism2Xml(def catechism) {
+  //   def s = new StringWriter();
+  //   def x = new MarkupBuilder(s);
+  //   x.baltimore_catechism {
+  //     lessons {
+  //       catechism?.lessons?.each {
+  //         lesson ->
+  //           lesson(number: it.number, title: it.title, ordinal: it.ordinal)
+  //       }
+  //     }
+  //   }
+  //   return s.toString()
+  // }
   /** Read the input file and write the output file */
   public static void main(String[] args) {
     // def cli = new CliBuilder(usage: "parse the input file");
@@ -169,6 +189,8 @@ public class CatechismReader extends Catechism1BaseListener {
     assert inputFile.exists()
     def bc = CatechismReader.readCatechism(inputFile.newReader())
     println bc
+    new File('baltimore_catechism.json').text = CatechismReader.catechism2Json(bc)
+    new File('baltimore_catechism.xml').text = CatechismReader.catechism2Xml(bc)
   }
  
 }

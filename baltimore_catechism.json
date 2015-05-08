@@ -1,0 +1,1386 @@
+{
+    "lessons": [
+        {
+            "number": 1,
+            "ordinal": "FIRST",
+            "title": "ON THE END OF MAN",
+            "questions": [
+                {
+                    "number": "1",
+                    "question": "Who made the world?",
+                    "answer": "God made the world."
+                },
+                {
+                    "number": "2",
+                    "question": "Who is God?",
+                    "answer": "God is the Creator of heaven and earth, and of all things."
+                },
+                {
+                    "number": "3",
+                    "question": "What is man?",
+                    "answer": "Man is a creature composed of body and soul, and made to the image\r\nand likeness of God."
+                },
+                {
+                    "number": "6",
+                    "question": "Why did God make you?",
+                    "answer": "God made me to know Him, to love Him, and to serve Him in this world,\r\nand to be happy with Him forever in the next."
+                },
+                {
+                    "number": "9",
+                    "question": "What must we do to save our souls?",
+                    "answer": "To save our souls, we must worship God by faith, hope, and charity;\r\nthat is, we must believe in Him, hope in Him, and love Him with all our\r\nheart."
+                },
+                {
+                    "number": "10",
+                    "question": "How shall we know the things which we are to believe?",
+                    "answer": "We shall know the things which we are to believe from the Catholic\r\nChurch, through which God speaks to us."
+                },
+                {
+                    "number": "11",
+                    "question": "Where shall we find the chief truths which the Church teaches?",
+                    "answer": "We shall find the chief truths which the Church teaches in the\r\nApostles' Creed."
+                },
+                {
+                    "number": "12",
+                    "question": "Say the Apostles' Creed.",
+                    "answer": "I believe in God, the Father Almighty, Creator of heaven and earth;\r\nand in Jesus Christ, His only Son, our Lord; who was conceived by the\r\nHoly Ghost, born of the Virgin Mary, suffered under Pontius Pilate, was\r\ncrucified; died, and was buried. He descended into hell: the third day\r\nHe arose again from the dead: He ascended into heaven, and sitteth at\r\nthe right hand of God, the Father Almighty; from thence He shall come to\r\njudge the living and the dead. I believe in the Holy Ghost, the Holy\r\nCatholic Church, the communion of Saints, the forgiveness of sins, the\r\nresurrection of the body, and the life everlasting. Amen."
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "ordinal": "SECOND",
+            "title": "ON GOD AND HIS PERFECTIONS",
+            "questions": [
+                {
+                    "number": "13",
+                    "question": "What is God?",
+                    "answer": "God is a spirit infinitely perfect."
+                },
+                {
+                    "number": "14",
+                    "question": "Had God a beginning?",
+                    "answer": "God had no beginning; He always was and He always will be."
+                },
+                {
+                    "number": "15",
+                    "question": "Where is God?",
+                    "answer": "God is everywhere."
+                },
+                {
+                    "number": "16",
+                    "question": "If God is everywhere, why do we not see Him?",
+                    "answer": "We do not see God, because He is a pure spirit and cannot be seen\r\nwith bodily eyes."
+                },
+                {
+                    "number": "17",
+                    "question": "Does God see us?",
+                    "answer": "God sees us and watches over us."
+                },
+                {
+                    "number": "18",
+                    "question": "Does God know all things?",
+                    "answer": "God knows all things, even our most secret thoughts, words, and\r\nactions."
+                },
+                {
+                    "number": "19",
+                    "question": "Can God do all things?",
+                    "answer": "God can do all things, and nothing is hard or impossible to Him."
+                },
+                {
+                    "number": "20",
+                    "question": "Is God just, holy, and merciful?",
+                    "answer": "God is all just, all holy, all merciful, as He is infinitely perfect."
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "ordinal": "THIRD",
+            "title": "ON THE UNITY AND TRINITY OF GOD",
+            "questions": [
+                {
+                    "number": "21",
+                    "question": "Is there but one God?",
+                    "answer": "Yes; there is but one God."
+                },
+                {
+                    "number": "22",
+                    "question": "Why can there be but one God?",
+                    "answer": "There can be but one God, because God, being supreme and infinite,\r\ncannot have an equal."
+                },
+                {
+                    "number": "23",
+                    "question": "How many Persons are there in God?",
+                    "answer": "In God there are three Divine Persons, really distinct, and equal in\r\nall things--the Father, the Son, and the Holy Ghost."
+                },
+                {
+                    "number": "24",
+                    "question": "Is the Father God?",
+                    "answer": "The Father is God and the first Person of the Blessed Trinity."
+                },
+                {
+                    "number": "25",
+                    "question": "Is the Son God?",
+                    "answer": "The Son is God and the second Person of the Blessed Trinity."
+                },
+                {
+                    "number": "26",
+                    "question": "Is the Holy Ghost God?",
+                    "answer": "The Holy Ghost is God and the third Person of the Blessed Trinity."
+                },
+                {
+                    "number": "27",
+                    "question": "What is the Blessed Trinity?",
+                    "answer": "The Blessed Trinity is one God in three Divine Persons."
+                },
+                {
+                    "number": "29",
+                    "question": "Are the three Divine Persons one and the same God?",
+                    "answer": "The three Divine Persons are one and the same God, having one and the\r\nsame Divine nature."
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "ordinal": "FOURTH",
+            "title": "ON THE ANGELS AND OUR FIRST PARENTS",
+            "questions": [
+                {
+                    "number": "34",
+                    "question": "Which are the chief creatures of God?",
+                    "answer": "The chief creatures of God are men and angels."
+                },
+                {
+                    "number": "35",
+                    "question": "What are angels?",
+                    "answer": "Angels are bodiless spirits created to adore and enjoy God in heaven."
+                },
+                {
+                    "number": "39",
+                    "question": "Who were the first man and woman?",
+                    "answer": "The first man and woman were Adam and Eve."
+                },
+                {
+                    "number": "40",
+                    "question": "Were Adam and Eve innocent and holy when they came from the hand\r\nof God?",
+                    "answer": "Adam and Eve were innocent and holy when they came from the hand of\r\nGod."
+                },
+                {
+                    "number": "43",
+                    "question": "Did Adam and Eve remain faithful to God?",
+                    "answer": "Adam and Eve did not remain faithful to God; but broke His command by\r\neating the forbidden fruit."
+                },
+                {
+                    "number": "44",
+                    "question": "What befell Adam and Eve on account of their sin?",
+                    "answer": "Adam and Eve, on account of their sin, lost innocence and holiness,\r\nand were doomed to misery and death."
+                },
+                {
+                    "number": "45",
+                    "question": "What evil befell us through the disobedience of our first\r\nparents?",
+                    "answer": "Through the disobedience of our first parents we all inherit their\r\nsin and punishment, as we should have shared in their happiness if they\r\nhad remained faithful."
+                },
+                {
+                    "number": "47",
+                    "question": "What is the sin called which we inherit from our first parents?",
+                    "answer": "The sin which we inherit from our first parents is called original\r\nsin."
+                },
+                {
+                    "number": "50",
+                    "question": "Was any one ever preserved from original sin?",
+                    "answer": "The Blessed Virgin Mary, through the merits of her Divine Son, was\r\npreserved free from the guilt of original sin, and this privilege is\r\ncalled her Immaculate Conception."
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "ordinal": "FIFTH",
+            "title": "ON SIN AND ITS KINDS",
+            "questions": [
+                {
+                    "number": "51",
+                    "question": "Is original sin the only kind of sin?",
+                    "answer": "Original sin is not the only kind of sin; there is another kind of\r\nsin, which we commit ourselves, called actual sin."
+                },
+                {
+                    "number": "52",
+                    "question": "What is actual sin?",
+                    "answer": "Actual sin is any wilful thought, word, deed or omission contrary to\r\nthe law of God."
+                },
+                {
+                    "number": "53",
+                    "question": "How many kinds of actual sin are there?",
+                    "answer": "There are two kinds of actual sin--mortal and venial."
+                },
+                {
+                    "number": "54",
+                    "question": "What is mortal sin?",
+                    "answer": "Mortal sin is a grievous offense against the law of God."
+                },
+                {
+                    "number": "57",
+                    "question": "What is venial sin?",
+                    "answer": "Venial sin is a slight offense against the law of God in matters of\r\nless importance; or in matters of great importance it is an offense\r\ncommitted without sufficient reflection or full consent of the will."
+                },
+                {
+                    "number": "59",
+                    "question": "Which are the chief sources of sin?",
+                    "answer": "The chief sources of sin are seven: Pride, Covetousness, Lust, Anger,\r\nGluttony, Envy, and Sloth; and they are commonly called capital sins."
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "ordinal": "SIXTH",
+            "title": "ON THE INCARNATION AND REDEMPTION",
+            "questions": [
+                {
+                    "number": "60",
+                    "question": "Did God abandon man after he fell into sin?",
+                    "answer": "God did not abandon man after he fell into sin, but promised him a\r\nRedeemer, who was to satisfy for man's sin and reopen to him the gates\r\nof heaven."
+                },
+                {
+                    "number": "61",
+                    "question": "Who is the Redeemer?",
+                    "answer": "Our Blessed Lord and Saviour Jesus Christ is the Redeemer of mankind."
+                },
+                {
+                    "number": "62",
+                    "question": "What do you believe of Jesus Christ?",
+                    "answer": "I believe that Jesus Christ is the Son of God, the second Person of\r\nthe Blessed Trinity, true God and true man."
+                },
+                {
+                    "number": "69",
+                    "question": "What do you mean by the Incarnation?",
+                    "answer": "By the Incarnation I mean that the Son of God was made man."
+                },
+                {
+                    "number": "70",
+                    "question": "How was the Son of God made man?",
+                    "answer": "The Son of God was conceived and made man by the power of the Holy\r\nGhost, in the womb of the Blessed Virgin Mary."
+                },
+                {
+                    "number": "74",
+                    "question": "On what day was the Son of God conceived and made man?",
+                    "answer": "The Son of God was conceived and made man on Annunciation day--the\r\nday on which the Angel Gabriel announced to the Blessed Virgin Mary that\r\nshe was to be the Mother of God."
+                },
+                {
+                    "number": "75",
+                    "question": "On what day was Christ born?",
+                    "answer": "Christ was born on Christmas day in a stable at Bethlehem, over\r\nnineteen hundred years ago."
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "ordinal": "SEVENTH",
+            "title": "ON OUR LORD'S PASSION, DEATH, RESURRECTION, AND ASCENSION",
+            "questions": [
+                {
+                    "number": "78",
+                    "question": "What did Jesus Christ suffer?",
+                    "answer": "Jesus Christ suffered a bloody sweat, a cruel scourging, was crowned\r\nwith thorns, and was crucified."
+                },
+                {
+                    "number": "79",
+                    "question": "On what day did Christ die?",
+                    "answer": "Christ died on Good Friday."
+                },
+                {
+                    "number": "83",
+                    "question": "Why did Christ suffer and die?",
+                    "answer": "Christ suffered and died for our sins."
+                },
+                {
+                    "number": "89",
+                    "question": "On what day did Christ rise from the dead?",
+                    "answer": "Christ rose from the dead, glorious and immortal, on Easter Sunday,\r\nthe third day after His death."
+                },
+                {
+                    "number": "91",
+                    "question": "After Christ had remained forty days on earth, whither did He go?",
+                    "answer": "After forty days Christ ascended into heaven, and the day on which He\r\nascended into heaven is called Ascension day."
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "ordinal": "EIGHTH",
+            "title": "ON THE HOLY GHOST AND HIS DESCENT UPON THE APOSTLES",
+            "questions": [
+                {
+                    "number": "94",
+                    "question": "Who is the Holy Ghost?",
+                    "answer": "The Holy Ghost is the third Person of the Blessed Trinity."
+                },
+                {
+                    "number": "97",
+                    "question": "On what day did the Holy Ghost come down upon the Apostles?",
+                    "answer": "The Holy Ghost came down upon the Apostles ten days after the\r\nAscension of our Lord; and the day on which He came down upon the\r\nApostles is called Whitsunday, or Pentecost."
+                },
+                {
+                    "number": "99",
+                    "question": "Who sent the Holy Ghost upon the Apostles?",
+                    "answer": "Our Lord Jesus Christ sent the Holy Ghost upon the Apostles."
+                },
+                {
+                    "number": "100",
+                    "question": "Why did Christ send the Holy Ghost?",
+                    "answer": "Christ sent the Holy Ghost to sanctify His Church, to enlighten and\r\nstrengthen the Apostles, and to enable them to preach the Gospel."
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "ordinal": "NINTH",
+            "title": "ON THE EFFECTS OF THE REDEMPTION",
+            "questions": [
+                {
+                    "number": "102",
+                    "question": "Which are the chief effects of the Redemption?",
+                    "answer": "The chief effects of the Redemption are two: The satisfaction of\r\nGod's justice by Christ's sufferings and death, and the gaining of grace\r\nfor men."
+                },
+                {
+                    "number": "103",
+                    "question": "What do you mean by grace?",
+                    "answer": "By grace I mean a supernatural gift of God bestowed on us, through\r\nthe merits of Jesus Christ, for our salvation."
+                },
+                {
+                    "number": "104",
+                    "question": "How many kinds of grace are there?",
+                    "answer": "There are two kinds of grace, sanctifying grace and actual grace."
+                },
+                {
+                    "number": "105",
+                    "question": "What is sanctifying grace?",
+                    "answer": "Sanctifying grace is that grace which makes the soul holy and\r\npleasing to God."
+                },
+                {
+                    "number": "110",
+                    "question": "What is actual grace?",
+                    "answer": "Actual grace is that help of God which enlightens our mind and moves\r\nour will to shun evil and do good.\r\n\r\n{T.N.: The above question is out of numerical order in the printed\r\nsource of Baltimore Catechism No. 1.}"
+                },
+                {
+                    "number": "107",
+                    "question": "What is Faith?",
+                    "answer": "Faith is a Divine virtue by which we firmly believe the truths which\r\nGod has revealed."
+                },
+                {
+                    "number": "108",
+                    "question": "What is Hope?",
+                    "answer": "Hope is a Divine virtue by which we firmly trust that God will give\r\nus eternal life and the means to obtain it."
+                },
+                {
+                    "number": "109",
+                    "question": "What is Charity?",
+                    "answer": "Charity is a Divine virtue by which we love God above all things for\r\nHis own sake, and our neighbor as ourselves for the love of God."
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "ordinal": "TENTH",
+            "title": "ON THE CHURCH",
+            "questions": [
+                {
+                    "number": "114",
+                    "question": "Which are the means instituted by our Lord to enable men at all\r\ntimes to share in the fruits of the Redemption?",
+                    "answer": "The means instituted by our Lord to enable men at all times to share\r\nin the fruits of His Redemption are the Church and the Sacraments."
+                },
+                {
+                    "number": "115",
+                    "question": "What is the Church?",
+                    "answer": "The Church is the congregation of all those who profess the faith of\r\nChrist, partake of the same Sacraments, and are governed by their lawful\r\npastors under one visible Head."
+                },
+                {
+                    "number": "116",
+                    "question": "Who is the invisible Head of the Church?",
+                    "answer": "Jesus Christ is the invisible Head of the Church."
+                },
+                {
+                    "number": "117",
+                    "question": "Who is the visible Head of the Church?",
+                    "answer": "Our Holy Father the Pope, the Bishop of Rome, is the Vicar of Christ\r\non earth, and the visible Head of the Church."
+                },
+                {
+                    "number": "128",
+                    "question": "Has the Church any marks by which it may be known?",
+                    "answer": "The Church has four marks by which it may be known: it is One; it is\r\nHoly; it is Catholic; it is Apostolic."
+                },
+                {
+                    "number": "133",
+                    "question": "In which Church are these marks found?",
+                    "answer": "These marks are found in the Holy Roman Catholic Church alone."
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "ordinal": "ELEVENTH",
+            "title": "ON THE SACRAMENTS IN GENERAL",
+            "questions": [
+                {
+                    "number": "136",
+                    "question": "What is a Sacrament?",
+                    "answer": "A Sacrament is an outward sign instituted by Christ to give grace."
+                },
+                {
+                    "number": "137",
+                    "question": "How many Sacraments are there?",
+                    "answer": "There are seven Sacraments: Baptism, Confirmation, Holy Eucharist,\r\nPenance, Extreme Unction, Holy Orders, and Matrimony."
+                },
+                {
+                    "number": "138",
+                    "question": "Whence have the Sacraments the power of giving grace?",
+                    "answer": "The Sacraments have the power of giving grace from the merits of\r\nJesus Christ."
+                },
+                {
+                    "number": "147",
+                    "question": "Do the Sacraments always give grace?",
+                    "answer": "The Sacraments always give grace, if we receive them with the right\r\ndispositions."
+                },
+                {
+                    "number": "148",
+                    "question": "Can we receive the Sacraments more than once?",
+                    "answer": "We can receive the Sacraments more than once, except Baptism,\r\nConfirmation, and Holy Orders."
+                }
+            ]
+        },
+        {
+            "number": 12,
+            "ordinal": "TWELFTH",
+            "title": "ON BAPTISM",
+            "questions": [
+                {
+                    "number": "152",
+                    "question": "What is Baptism?",
+                    "answer": "Baptism is a Sacrament which cleanses us from original sin, makes us\r\nChristians, children of God, and heirs of heaven."
+                },
+                {
+                    "number": "153",
+                    "question": "Are actual sins ever remitted by Baptism?",
+                    "answer": "Actual sins and all the punishment due to them are remitted by\r\nBaptism, if the person baptized be guilty of any, and is rightly\r\ndisposed."
+                },
+                {
+                    "number": "154",
+                    "question": "Is Baptism necessary to salvation?",
+                    "answer": "Baptism is necessary to salvation, because without it we cannot enter\r\ninto the kingdom of heaven."
+                },
+                {
+                    "number": "155",
+                    "question": "Who can administer Baptism?",
+                    "answer": "The priest is the ordinary minister of Baptism; but in case of\r\nnecessity any one who has the use of reason may baptize."
+                },
+                {
+                    "number": "156",
+                    "question": "How is Baptism given?",
+                    "answer": "Whoever baptizes should pour water on the head of the person to be\r\nbaptized, and say, while pouring the water: I baptize thee in the name\r\nof the Father, and of the Son, and of the Holy Ghost."
+                }
+            ]
+        },
+        {
+            "number": 13,
+            "ordinal": "THIRTEENTH",
+            "title": "ON CONFIRMATION",
+            "questions": [
+                {
+                    "number": "166",
+                    "question": "What is Confirmation?",
+                    "answer": "Confirmation is a Sacrament through which we receive the Holy Ghost\r\nto make us strong and perfect Christians and soldiers of Jesus Christ."
+                },
+                {
+                    "number": "167",
+                    "question": "Who administers Confirmation?",
+                    "answer": "The bishop is the ordinary minister of Confirmation."
+                },
+                {
+                    "number": "168",
+                    "question": "How does the bishop give Confirmation?",
+                    "answer": "The bishop extends his hands over those who are to be confirmed,\r\nprays that they may receive the Holy Ghost, and anoints the forehead of\r\neach with holy chrism in the form of a cross."
+                },
+                {
+                    "number": "170",
+                    "question": "What does the bishop say in anointing the person he confirms?",
+                    "answer": "In anointing the person he confirms the bishop says: I sign thee with\r\nthe sign of the cross, and I confirm thee with the chrism of salvation,\r\nin the name of the Father, and of the Son, and of the Holy Ghost."
+                },
+                {
+                    "number": "173",
+                    "question": "To receive Confirmation worthily is it necessary to be in the\r\nstate of grace?",
+                    "answer": "To receive Confirmation worthily it is necessary to be in the state\r\nof grace."
+                },
+                {
+                    "number": "173a",
+                    "question": "What is a state of grace?",
+                    "answer": "A state of grace is freedom from mortal sin.\r\n\r\n{T.N.: The above question is numbered 174 in the printed source, but a\r\ndifferent question is given in its place in Baltimore Catechism Nos. 2\r\nand 4, where the topic is covered in Q. 55 and elsewhere.}"
+                },
+                {
+                    "number": "175",
+                    "question": "Is it a sin to neglect Confirmation?",
+                    "answer": "It is a sin to neglect Confirmation, especially in these evil days\r\nwhen faith and morals are exposed to so many and such violent\r\ntemptations."
+                }
+            ]
+        },
+        {
+            "number": 14,
+            "ordinal": "FOURTEENTH",
+            "title": "ON THE SACRAMENT OF PENANCE",
+            "questions": [
+                {
+                    "number": "187",
+                    "question": "What is the Sacrament of Penance?",
+                    "answer": "Penance is a Sacrament in which the sins committed after Baptism are\r\nforgiven."
+                },
+                {
+                    "number": "191",
+                    "question": "What must we do to receive the Sacrament of Penance worthily?",
+                    "answer": "To receive the Sacrament of Penance worthily we must do five things:\r\n",
+                    "list": [
+                        {
+                            "number": "1",
+                            "text": "We must examine our conscience."
+                        },
+                        {
+                            "number": "2",
+                            "text": "We must have sorrow for our sins."
+                        },
+                        {
+                            "number": "3",
+                            "text": "We must make a firm resolution never more to offend God."
+                        },
+                        {
+                            "number": "4",
+                            "text": "We must confess our sins to the priest."
+                        },
+                        {
+                            "number": "5",
+                            "text": "We must accept the penance which the priest gives us."
+                        }
+                    ]
+                },
+                {
+                    "number": "192",
+                    "question": "What is the examination of conscience?",
+                    "answer": "The examination of conscience is an earnest effort to recall to mind\r\nall the sins we have committed since our last worthy confession."
+                }
+            ]
+        },
+        {
+            "number": 15,
+            "ordinal": "FIFTEENTH",
+            "title": "ON CONTRITION",
+            "questions": [
+                {
+                    "number": "195",
+                    "question": "What is contrition, or sorrow for sin?",
+                    "answer": "Contrition, or sorrow for sin, is a hatred of sin and a true grief of\r\nthe soul for having offended God, with a firm purpose of sinning no\r\nmore."
+                },
+                {
+                    "number": "201",
+                    "question": "Why should we be sorry for our sins?",
+                    "answer": "We should be sorry for our sins, because sin is the greatest of evils\r\nand an offense against God our Creator, Preserver, and Redeemer, and\r\nbecause mortal sin shuts us out of heaven and condemns us to the eternal\r\npains of hell."
+                },
+                {
+                    "number": "206",
+                    "question": "What do you mean by a firm purpose of sinning no more?",
+                    "answer": "By a firm purpose of sinning no more I mean a fixed resolve not only\r\nto avoid all mortal sin, but also its near occasions."
+                },
+                {
+                    "number": "207",
+                    "question": "What do you mean by the near occasions of sin?",
+                    "answer": "By the near occasions of sin I mean all the persons, places, and\r\nthings that may easily lead us into sin."
+                }
+            ]
+        },
+        {
+            "number": 16,
+            "ordinal": "SIXTEENTH",
+            "title": "ON CONFESSION",
+            "questions": [
+                {
+                    "number": "208",
+                    "question": "What is Confession?",
+                    "answer": "Confession is the telling of our sins to a duly authorized priest,\r\nfor the purpose of obtaining forgiveness."
+                },
+                {
+                    "number": "209",
+                    "question": "What sins are we bound to confess?",
+                    "answer": "We are bound to confess all our mortal sins, but it is well also to\r\nconfess our venial sins."
+                },
+                {
+                    "number": "214",
+                    "question": "What should we do if we cannot remember the number of our sins?",
+                    "answer": "If we cannot remember the number of our sins, we should tell the\r\nnumber as nearly as possible."
+                },
+                {
+                    "number": "216",
+                    "question": "Is it a grievous offense wilfully to conceal a mortal sin in\r\nConfession?",
+                    "answer": "It is a grievous offense wilfully to conceal a mortal sin in\r\nConfession, because we thereby tell a lie to the Holy Ghost, and make\r\nour Confession worthless."
+                },
+                {
+                    "number": "217",
+                    "question": "What must he do who has wilfully concealed a mortal sin in\r\nConfession?",
+                    "answer": "He who has wilfully concealed a mortal sin in Confession must not\r\nonly confess it, but must also repeat all the sins he has committed\r\nsince his last worthy Confession."
+                },
+                {
+                    "number": "218",
+                    "question": "Why does the priest give us a penance after Confession?",
+                    "answer": "The priest gives us a penance after Confession that we may satisfy\r\nGod for the temporal punishment due to our sins."
+                }
+            ]
+        },
+        {
+            "number": 17,
+            "ordinal": "SEVENTEENTH",
+            "title": "ON INDULGENCES",
+            "questions": [
+                {
+                    "number": "231",
+                    "question": "What is an Indulgence?",
+                    "answer": "An Indulgence is the remission in whole or in part of the temporal\r\npunishment due to sin."
+                },
+                {
+                    "number": "233",
+                    "question": "How many kinds of Indulgences are there?",
+                    "answer": "There are two kinds of Indulgences--Plenary and Partial."
+                },
+                {
+                    "number": "234",
+                    "question": "What is a Plenary Indulgence?",
+                    "answer": "A Plenary Indulgence is the full remission of the temporal punishment\r\ndue to sin."
+                },
+                {
+                    "number": "235",
+                    "question": "What is a Partial Indulgence?",
+                    "answer": "A Partial Indulgence is the remission of a part of the temporal\r\npunishment due to sin."
+                },
+                {
+                    "number": "237",
+                    "question": "What must we do to gain an Indulgence?",
+                    "answer": "To gain an Indulgence we must be in the state of grace and perform\r\nthe works enjoined."
+                }
+            ]
+        },
+        {
+            "number": 18,
+            "ordinal": "EIGHTEENTH",
+            "title": "ON THE HOLY EUCHARIST",
+            "questions": [
+                {
+                    "number": "238",
+                    "question": "What is the Holy Eucharist?",
+                    "answer": "The Holy Eucharist is the Sacrament which contains the body and\r\nblood, soul and divinity, of our Lord Jesus Christ under the appearances\r\nof bread and wine."
+                },
+                {
+                    "number": "245",
+                    "question": "What do you mean by the appearances of bread and wine?",
+                    "answer": "By the appearances of bread and wine I mean the figure, the color,\r\nthe taste, and whatever appears to the senses."
+                },
+                {
+                    "number": "249",
+                    "question": "When did Christ give His priests the power to change bread and\r\nwine into His body and blood?",
+                    "answer": "Christ gave His priests the power to change bread and wine into His\r\nbody and blood when He said to the Apostles, Do this for a commemoration\r\nof Me."
+                },
+                {
+                    "number": "250",
+                    "question": "How do the priests exercise this power of changing bread and\r\nwine into the body and blood of Christ?",
+                    "answer": "The priests exercise this power of changing bread and wine into the\r\nbody and blood of Christ through the words of consecration in the Mass,\r\nwhich are the words of Christ: This is My body; this is My blood."
+                }
+            ]
+        },
+        {
+            "number": 19,
+            "ordinal": "NINTEENTH",
+            "title": "ON THE ENDS FOR WHICH THE HOLY EUCHARIST WAS INSTITUTED",
+            "questions": [
+                {
+                    "number": "251",
+                    "question": "Why did Christ institute the Holy Eucharist?",
+                    "answer": "Christ instituted the Holy Eucharist--\r\n",
+                    "list": [
+                        {
+                            "number": "1",
+                            "text": "To unite us to Himself and to nourish our soul with His body and\r\n   blood."
+                        },
+                        {
+                            "number": "2",
+                            "text": "To increase sanctifying grace and all virtues in our soul."
+                        },
+                        {
+                            "number": "3",
+                            "text": "To lessen our evil inclinations."
+                        },
+                        {
+                            "number": "4",
+                            "text": "To be a pledge of everlasting life."
+                        },
+                        {
+                            "number": "5",
+                            "text": "To fit our bodies for a glorious resurrection."
+                        },
+                        {
+                            "number": "6",
+                            "text": "To continue the sacrifice of the cross in His Church."
+                        }
+                    ]
+                },
+                {
+                    "number": "253",
+                    "question": "What is Holy Communion?",
+                    "answer": "Holy Communion is the receiving of the body and blood of Christ."
+                },
+                {
+                    "number": "254",
+                    "question": "What is necessary to make a good Communion?",
+                    "answer": "To make a good Communion it is necessary to be in the state of\r\ngrace and to be fasting for one hour from food and all drinks, except\r\nwater.\r\n\r\n[This answer has been changed in the 1977 edition to bring it up to\r\ndate with the current rules.]"
+                },
+                {
+                    "number": "255",
+                    "question": "Does he who receives Communion in mortal sin receive the body\r\nand blood of Christ?",
+                    "answer": "He who receives Communion in mortal sin receives the body and blood\r\nof Christ, but does not receive His grace, and he commits a great\r\nsacrilege."
+                }
+            ]
+        },
+        {
+            "number": 20,
+            "ordinal": "TWENTIETH",
+            "title": "ON THE SACRIFICE OF THE MASS",
+            "questions": [
+                {
+                    "number": "262",
+                    "question": "When are the bread and wine changed into the body and blood of\r\nChrist?",
+                    "answer": "The bread and wine are changed into the body and blood of Christ at\r\nthe consecration in the Mass."
+                },
+                {
+                    "number": "263",
+                    "question": "What is the Mass?",
+                    "answer": "The Mass is the unbloody sacrifice of the body and blood of Christ."
+                },
+                {
+                    "number": "265",
+                    "question": "Is the Mass the same sacrifice as that of the cross?",
+                    "answer": "The Mass is the same sacrifice as that of the cross."
+                },
+                {
+                    "number": "269",
+                    "question": "How should we assist at Mass?",
+                    "answer": "We should assist at Mass with great interior recollection and piety,\r\nand with every outward mark of respect and devotion."
+                }
+            ]
+        },
+        {
+            "number": 21,
+            "ordinal": "TWENTY-FIRST",
+            "title": "ON EXTREME UNCTION AND HOLY ORDERS",
+            "questions": [
+                {
+                    "number": "271",
+                    "question": "What is the Sacrament of Extreme Unction?",
+                    "answer": "Extreme Unction is the Sacrament which, through the anointing and\r\nprayer of the priest, gives health and strength to the soul, and\r\nsometimes to the body, when we are in danger of death from sickness."
+                },
+                {
+                    "number": "274",
+                    "question": "Which are the effects of the Sacrament of Extreme Unction?",
+                    "answer": "The effects of Extreme Unction are: 1st, to comfort us in the pains\r\nof sickness and to strengthen us against temptation; 2d, to remit venial\r\nsins and to cleanse our soul from the remains of sin; 3d, to restore us\r\nto health, when God sees fit."
+                },
+                {
+                    "number": "278",
+                    "question": "What is the Sacrament of Holy Orders?",
+                    "answer": "Holy Orders is a Sacrament by which bishops, priests, and other\r\nministers of the Church are ordained and receive the power and grace to\r\nperform their sacred duties."
+                }
+            ]
+        },
+        {
+            "number": 22,
+            "ordinal": "TWENTY-SECOND",
+            "title": "ON MATRIMONY",
+            "questions": [
+                {
+                    "number": "282",
+                    "question": "What is the Sacrament of Matrimony?",
+                    "answer": "The Sacrament of Matrimony is the Sacrament which unites a Christian\r\nman and woman in lawful marriage."
+                },
+                {
+                    "number": "285",
+                    "question": "Which are the effects of the Sacrament of Matrimony?",
+                    "answer": "The effects of the Sacrament of Matrimony are: 1st, to sanctify the\r\nlove of husband and wife; 2d, to give them grace to bear with each\r\nother's weaknesses; 3d, to enable them to bring up their children in the\r\nfear and love of God."
+                },
+                {
+                    "number": "286",
+                    "question": "To receive the Sacrament of matrimony worthily is it necessary\r\nto be in the state of grace?",
+                    "answer": "To receive the Sacrament of Matrimony worthily it is necessary to be\r\nin the state of grace, and it is necessary also to comply with the laws\r\nof the Church."
+                }
+            ]
+        },
+        {
+            "number": 23,
+            "ordinal": "TWENTY-THIRD",
+            "title": "ON THE SACRAMENTALS",
+            "questions": [
+                {
+                    "number": "292",
+                    "question": "What is a sacramental?",
+                    "answer": "A sacramental is anything set apart or blessed by the Church to\r\nexcite good thoughts and to increase devotion, and through these\r\nmovements of the heart to remit venial sin."
+                },
+                {
+                    "number": "294",
+                    "question": "Which is the chief sacramental used in the Church?",
+                    "answer": "The chief sacramental used in the Church is the sign of the cross."
+                },
+                {
+                    "number": "295",
+                    "question": "How do we make the sign of the cross?",
+                    "answer": "We make the sign of the cross by putting the right hand to the\r\nforehead, then on the breast, and then to the left and right shoulders,\r\nsaying, In the name of the Father, and of the Son, and of the Holy\r\nGhost. Amen."
+                },
+                {
+                    "number": "296",
+                    "question": "Why do we make the sign of the cross?",
+                    "answer": "We make the sign of the cross to show that we are Christians and to\r\nprofess our belief in the chief mysteries of our religion."
+                },
+                {
+                    "number": "300",
+                    "question": "What other sacramental is in very frequent use?",
+                    "answer": "Another sacramental in very frequent use is holy water."
+                },
+                {
+                    "number": "301",
+                    "question": "What is holy water?",
+                    "answer": "Holy water is water blessed by the priest with solemn prayer to beg\r\nGod's blessing on those who use it, and protection from the powers of\r\ndarkness."
+                },
+                {
+                    "number": "302",
+                    "question": "Are there other sacramentals besides the sign of the cross and\r\nholy water?",
+                    "answer": "Besides the sign of the cross and holy water there are many other\r\nsacramentals, such as blessed candles, ashes, palms, crucifixes, images\r\nof the Blessed Virgin and of the saints, rosaries and scapulars."
+                }
+            ]
+        },
+        {
+            "number": 24,
+            "ordinal": "TWENTY-FOURTH",
+            "title": "ON PRAYER",
+            "questions": [
+                {
+                    "number": "303",
+                    "question": "Is there any other means of obtaining God's grace than the\r\nSacraments?",
+                    "answer": "There is another means of obtaining God's grace, and it is prayer."
+                },
+                {
+                    "number": "304",
+                    "question": "What is prayer?",
+                    "answer": "Prayer is the lifting up of our minds and hearts to God to adore Him,\r\nto thank Him for His benefits, to ask His forgiveness, and to beg of Him\r\nall the graces we need, whether for soul or body."
+                },
+                {
+                    "number": "305",
+                    "question": "Is prayer necessary to salvation?",
+                    "answer": "Prayer is necessary to salvation, and without it no one having the\r\nuse of reason can be saved."
+                },
+                {
+                    "number": "306",
+                    "question": "At what particular times should we pray?",
+                    "answer": "We should pray particularly on Sundays and holydays, every morning\r\nand night, in all dangers, temptations, and afflictions."
+                },
+                {
+                    "number": "308",
+                    "question": "Which are the prayers most recommended to us?",
+                    "answer": "The prayers most recommended to us are the Lord's Prayer, the Hail\r\nMary, the Apostles' Creed, the Confiteor, and the Acts of Faith, Hope,\r\nLove and Contrition."
+                },
+                {
+                    "number": "309",
+                    "question": "Are prayers said with distractions of any avail?",
+                    "answer": "Prayers said with wilful distractions are of no avail."
+                }
+            ]
+        },
+        {
+            "number": 25,
+            "ordinal": "TWENTY-FIFTH",
+            "title": "ON THE COMMANDMENTS OF GOD",
+            "questions": [
+                {
+                    "number": "310",
+                    "question": "Is it enough to belong to God's Church in order to be saved?",
+                    "answer": "It is not enough to belong to the Church in order to be saved, but we\r\nmust also keep the Commandments of God and of the Church."
+                },
+                {
+                    "number": "313",
+                    "question": "Which are the Commandments of God?",
+                    "answer": "The Commandments of God are these ten:\r\n",
+                    "list": [
+                        {
+                            "number": "1",
+                            "text": "I am the Lord thy God. Thou shalt not have strange gods before Me."
+                        },
+                        {
+                            "number": "2",
+                            "text": "Thou shalt not take the name of the Lord thy God in vain."
+                        },
+                        {
+                            "number": "3",
+                            "text": "Remember thou keep holy the Sabbath day."
+                        },
+                        {
+                            "number": "4",
+                            "text": "Honor thy father and thy mother."
+                        },
+                        {
+                            "number": "5",
+                            "text": "Thou shalt not kill."
+                        },
+                        {
+                            "number": "6",
+                            "text": "Thou shalt not commit adultery."
+                        },
+                        {
+                            "number": "7",
+                            "text": "Thou shalt not steal."
+                        },
+                        {
+                            "number": "8",
+                            "text": "Thou shalt not bear false witness against thy neighbor."
+                        },
+                        {
+                            "number": "9",
+                            "text": "Thou shalt not covet thy neighbor's wife."
+                        },
+                        {
+                            "number": "10",
+                            "text": "Thou shalt not covet thy neighbor's goods."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 26,
+            "ordinal": "TWENTY-SIXTH",
+            "title": "ON THE FIRST COMMANDMENT",
+            "questions": [
+                {
+                    "number": "315",
+                    "question": "What is the first Commandment?",
+                    "answer": "The first Commandment is: I am the Lord thy God: thou shalt not have\r\nstrange gods before Me."
+                },
+                {
+                    "number": "317",
+                    "question": "How do we adore God?",
+                    "answer": "We adore God by faith, hope, and love, by prayer and sacrifice."
+                },
+                {
+                    "number": "318",
+                    "question": "How may the first Commandment be broken?",
+                    "answer": "The first Commandment may be broken by giving to a creature the honor\r\nwhich belongs to God alone; by false worship; and by attributing to a\r\ncreature a perfection which belongs to God alone."
+                },
+                {
+                    "number": "320",
+                    "question": "Are sins against faith, hope, and charity also sins against the\r\nfirst Commandment?",
+                    "answer": "Sins against faith, hope, and charity are also sins against the first\r\nCommandment."
+                },
+                {
+                    "number": "321",
+                    "question": "How does a person sin against faith?",
+                    "answer": "A person sins against faith: 1st, by not trying to know what God has\r\ntaught; 2d, by refusing to believe all that God has taught; 3d, by\r\nneglecting to profess his belief in what God has taught."
+                },
+                {
+                    "number": "326",
+                    "question": "Are we obliged to make open profession of our faith?",
+                    "answer": "We are obliged to make open profession of our faith as often as God's\r\nhonor, our neighbor's spiritual good, or our own requires it."
+                },
+                {
+                    "number": "327",
+                    "question": "Which are the sins against hope?",
+                    "answer": "The sins against hope are presumption and despair."
+                },
+                {
+                    "number": "328",
+                    "question": "What is presumption?",
+                    "answer": "Presumption is a rash expectation of salvation without making proper\r\nuse of the necessary means to obtain it."
+                },
+                {
+                    "number": "329",
+                    "question": "What is despair?",
+                    "answer": "Despair is the loss of hope in God's mercy."
+                }
+            ]
+        },
+        {
+            "number": 27,
+            "ordinal": "TWENTY-SEVENTH",
+            "title": "THE FIRST COMMANDMENT--ON THE HONOR AND INVOCATION OF SAINTS",
+            "questions": [
+                {
+                    "number": "331",
+                    "question": "Does the first Commandment forbid the honoring of the saints?",
+                    "answer": "The first Commandment does not forbid the honoring of the saints, but\r\nrather approves of it, because by honoring the saints, who are the\r\nchosen friends of God, we honor God Himself."
+                },
+                {
+                    "number": "332",
+                    "question": "Does the first Commandment forbid us to pray to the saints?",
+                    "answer": "The first Commandment does not forbid us to pray to the saints."
+                },
+                {
+                    "number": "333",
+                    "question": "What do we mean by praying to the saints?",
+                    "answer": "By praying to the saints we mean the asking of their help and\r\nprayers."
+                },
+                {
+                    "number": "340",
+                    "question": "Does the first Commandment forbid us to honor relics?",
+                    "answer": "The first Commandment does not forbid us to honor relics, because\r\nrelics are the bodies of the saints or objects directly connected with\r\nthem or with our Lord."
+                },
+                {
+                    "number": "341",
+                    "question": "Does the first Commandment forbid the making of images?",
+                    "answer": "The first Commandment does forbid the making of images if they are\r\nmade to be adored as gods, but it does not forbid the making of them to\r\nput us in mind of Jesus Christ, His Blessed Mother, and the saints."
+                },
+                {
+                    "number": "342",
+                    "question": "Is it right to show respect to the pictures and images of Christ\r\nand His saints?",
+                    "answer": "It is right to show respect to the pictures and images of Christ and\r\nHis saints, because they are the representations and memorials of them."
+                },
+                {
+                    "number": "343",
+                    "question": "Is it allowed to pray to the crucifix or to the images and\r\nrelics of the saints?",
+                    "answer": "It is not allowed to pray to the crucifix or images and relics of the\r\nsaints, for they have no life, nor power to help us, nor sense to hear\r\nus."
+                },
+                {
+                    "number": "344",
+                    "question": "Why do we pray before the crucifix and the images and relics of\r\nthe saints?",
+                    "answer": "We pray before the crucifix and images and relics of the saints\r\nbecause they enliven our devotion by exciting pious affections and\r\ndesires, and by reminding us of Christ and of the saints, that we may\r\nimitate their virtues."
+                }
+            ]
+        },
+        {
+            "number": 28,
+            "ordinal": "TWENTY-EIGHTH",
+            "title": "FROM THE SECOND TO THE FOURTH COMMANDMENT",
+            "questions": [
+                {
+                    "number": "345",
+                    "question": "What is the second Commandment?",
+                    "answer": "The second Commandment is: Thou shalt not take the name of the Lord\r\nthy God in vain."
+                },
+                {
+                    "number": "346",
+                    "question": "What are we commanded by the second Commandment?",
+                    "answer": "We are commanded by the second Commandment to speak with reverence of\r\nGod and of the saints, and of all holy things, and to keep our lawful\r\noaths and vows."
+                },
+                {
+                    "number": "347",
+                    "question": "What is an oath?",
+                    "answer": "An oath is the calling upon God to witness the truth of what we say."
+                },
+                {
+                    "number": "350",
+                    "question": "What is a vow?",
+                    "answer": "A vow is a deliberate promise made to God to do something that is\r\npleasing to Him."
+                },
+                {
+                    "number": "351",
+                    "question": "Is it a sin not to fulfill our vows?",
+                    "answer": "Not to fulfill our vows is a sin, mortal or venial, according to the\r\nnature of the vow and the intention we had in making it."
+                },
+                {
+                    "number": "352",
+                    "question": "What is forbidden by the second Commandment?",
+                    "answer": "The second Commandment forbids all false, rash, unjust, and\r\nunnecessary oaths, blasphemy, cursing, and profane words."
+                },
+                {
+                    "number": "353",
+                    "question": "What is the third Commandment?",
+                    "answer": "The third Commandment is: Remember thou keep holy the Sabbath day."
+                },
+                {
+                    "number": "355",
+                    "question": "How are we to worship God on Sundays and holydays of obligation?",
+                    "answer": "We are to worship God on Sundays and holydays of obligation by\r\nhearing Mass, by prayer, and by other good works."
+                },
+                {
+                    "number": "358",
+                    "question": "What is forbidden by the third Commandment?",
+                    "answer": "The third Commandment forbids all unnecessary servile work and\r\nwhatever else may hinder the due observance of the Lord's day."
+                },
+                {
+                    "number": "359",
+                    "question": "What are servile works?",
+                    "answer": "Servile works are those which require labor rather of body than of\r\nmind."
+                },
+                {
+                    "number": "360",
+                    "question": "Are servile works on Sunday ever lawful?",
+                    "answer": "Servile works are lawful on Sunday when the honor of God, the good of\r\nour neighbor, or necessity requires them."
+                }
+            ]
+        },
+        {
+            "number": 29,
+            "ordinal": "TWENTY-NINTH",
+            "title": "FROM THE FOURTH TO THE SEVENTH COMMANDMENT",
+            "questions": [
+                {
+                    "number": "361",
+                    "question": "What is the fourth Commandment?",
+                    "answer": "The fourth Commandment is: Honor thy father and thy mother."
+                },
+                {
+                    "number": "362",
+                    "question": "What are we commanded by the fourth Commandment?",
+                    "answer": "We are commanded by the fourth Commandment to honor, love, and obey\r\nour parents in all that is not sin."
+                },
+                {
+                    "number": "363",
+                    "question": "Are we bound to honor and obey others than our parents?",
+                    "answer": "We are also bound to honor and obey our bishops, pastors,\r\nmagistrates, teachers, and other lawful superiors."
+                },
+                {
+                    "number": "365",
+                    "question": "What is forbidden by the fourth Commandment?",
+                    "answer": "The fourth Commandment forbids all disobedience, contempt, and\r\nstubbornness towards our parents or lawful superiors."
+                },
+                {
+                    "number": "366",
+                    "question": "What is the fifth Commandment?",
+                    "answer": "The fifth Commandment is: Thou shalt not kill."
+                },
+                {
+                    "number": "367",
+                    "question": "What are we commanded by the fifth Commandment?",
+                    "answer": "We are commanded by the fifth Commandment to live in peace and union\r\nwith our neighbor, to respect his rights, to seek his spiritual and\r\nbodily welfare, and to take proper care of our own life and health."
+                },
+                {
+                    "number": "368",
+                    "question": "What is forbidden by the fifth Commandment?",
+                    "answer": "The fifth Commandment forbids all wilful murder, fighting, anger,\r\nhatred, revenge, and bad example."
+                },
+                {
+                    "number": "369",
+                    "question": "What is the sixth Commandment?",
+                    "answer": "The sixth Commandment is: Thou shalt not commit adultery."
+                },
+                {
+                    "number": "370",
+                    "question": "What are we commanded by the sixth Commandment?",
+                    "answer": "We are commanded by the sixth Commandment to be pure in thought and\r\nmodest in all our looks, words, and actions."
+                },
+                {
+                    "number": "371",
+                    "question": "What is forbidden by the sixth Commandment?",
+                    "answer": "The sixth commandment forbids all unchaste freedom with another's\r\nwife or husband; also all immodesty with ourselves or others in looks,\r\ndress, words, or actions."
+                },
+                {
+                    "number": "372",
+                    "question": "Does the sixth Commandment forbid the reading of bad and\r\nimmodest books and newspapers?",
+                    "answer": "The sixth Commandment does forbid the reading of bad and immodest\r\nbooks and newspapers."
+                }
+            ]
+        },
+        {
+            "number": 30,
+            "ordinal": "THIRTIETH",
+            "title": "FROM THE SEVENTH TO THE END OF THE TENTH COMMANDMENT",
+            "questions": [
+                {
+                    "number": "373",
+                    "question": "What is the seventh Commandment?",
+                    "answer": "The seventh Commandment is: Thou shalt not steal."
+                },
+                {
+                    "number": "374",
+                    "question": "What are we commanded by the seventh Commandment?",
+                    "answer": "By the seventh Commandment we are commanded to give to all men what\r\nbelongs to them and to respect their property."
+                },
+                {
+                    "number": "375",
+                    "question": "What is forbidden by the seventh Commandment?",
+                    "answer": "The seventh Commandment forbids all unjust taking or keeping what\r\nbelongs to another."
+                },
+                {
+                    "number": "376",
+                    "question": "Are we bound to restore ill-gotten goods?",
+                    "answer": "We are bound to restore ill-gotten goods, or the value of them, as\r\nfar as we are able; otherwise we cannot be forgiven."
+                },
+                {
+                    "number": "377",
+                    "question": "Are we obliged to repair the damage we have unjustly caused?",
+                    "answer": "We are bound to repair the damage we have unjustly caused."
+                },
+                {
+                    "number": "378",
+                    "question": "What is the eighth Commandment?",
+                    "answer": "The eighth Commandment is: Thou shalt not bear false witness against\r\nthy neighbor."
+                },
+                {
+                    "number": "379",
+                    "question": "What are we commanded by the eighth Commandment?",
+                    "answer": "We are commanded by the eighth Commandment to speak the truth in all\r\nthings, and to be careful of the honor and reputation of every one."
+                },
+                {
+                    "number": "380",
+                    "question": "What is forbidden by the eighth Commandment?",
+                    "answer": "The eighth Commandment forbids all rash judgments, backbiting,\r\nslanders, and lies."
+                },
+                {
+                    "number": "382",
+                    "question": "What is the ninth Commandment?",
+                    "answer": "The ninth Commandment is: Thou shalt not covet thy neighbor's wife."
+                },
+                {
+                    "number": "383",
+                    "question": "What are we commanded by the ninth Commandment?",
+                    "answer": "We are commanded by the ninth Commandment to keep ourselves pure in\r\nthought and desire."
+                },
+                {
+                    "number": "384",
+                    "question": "What is forbidden by the ninth Commandment?",
+                    "answer": "The ninth Commandment forbids unchaste thoughts, desires of another's\r\nwife or husband, and all other unlawful impure thoughts and desires."
+                },
+                {
+                    "number": "386",
+                    "question": "What is the tenth Commandment?",
+                    "answer": "The tenth Commandment is: Thou shalt not covet thy neighbor's goods."
+                },
+                {
+                    "number": "387",
+                    "question": "What are we commanded by the tenth Commandment?",
+                    "answer": "By the tenth Commandment we are commanded to be content with what we\r\nhave, and to rejoice in our neighbor's welfare."
+                },
+                {
+                    "number": "388",
+                    "question": "What is forbidden by the tenth Commandment?",
+                    "answer": "The tenth Commandment forbids all desires to take or keep wrongfully\r\nwhat belongs to another."
+                }
+            ]
+        },
+        {
+            "number": 31,
+            "ordinal": "THIRTY-FIRST",
+            "title": "ON THE FIRST AND SECOND COMMANDMENTS OF THE CHURCH",
+            "questions": [
+                {
+                    "number": "389",
+                    "question": "Which are the chief commandments of the Church?",
+                    "answer": "The chief commandments of the Church are six:\r\n",
+                    "list": [
+                        {
+                            "number": "1",
+                            "text": "To hear Mass on Sundays and holydays of obligation."
+                        },
+                        {
+                            "number": "2",
+                            "text": "To fast and abstain on the days appointed."
+                        },
+                        {
+                            "number": "3",
+                            "text": "To confess at least once a year."
+                        },
+                        {
+                            "number": "4",
+                            "text": "To receive the Holy Eucharist during the Easter time."
+                        },
+                        {
+                            "number": "5",
+                            "text": "To contribute to the support of our pastors."
+                        },
+                        {
+                            "number": "6",
+                            "text": "Not to marry persons who are not Catholics, or who are related to us\r\n   within the third degree of kindred, nor privately without witnesses,\r\n   nor to solemnize marriage at forbidden times."
+                        }
+                    ]
+                },
+                {
+                    "number": "390",
+                    "question": "Is it a mortal sin not to hear Mass on a Sunday or a holyday of\r\nobligation?",
+                    "answer": "It is a mortal sin not to hear Mass on a Sunday or a holyday of\r\nobligation unless we are excused for a serious reason. They also commit\r\na mortal sin who, having others under their charge, hinder them from\r\nhearing Mass, without a sufficient reason."
+                },
+                {
+                    "number": "393",
+                    "question": "What do you mean by fast-days?",
+                    "answer": "By fast-days I mean days on which we are allowed but one full meal."
+                },
+                {
+                    "number": "394",
+                    "question": "What do you mean by days of abstinence?",
+                    "answer": "By days of abstinence, I mean days on which we are forbidden to eat\r\nflesh-meat, but are allowed the usual number of meals."
+                },
+                {
+                    "number": "395",
+                    "question": "Why does the Church command us to fast and abstain?",
+                    "answer": "The Church commands us to fast and abstain in order that we may\r\nmortify our passions and satisfy for our sins."
+                }
+            ]
+        },
+        {
+            "number": 32,
+            "ordinal": "THIRTY-SECOND",
+            "title": "ON THE THIRD, FOURTH, FIFTH AND SIXTH COMMANDMENTS OF THE CHURCH",
+            "questions": [
+                {
+                    "number": "397",
+                    "question": "What is meant by the command of confessing at least once a year?",
+                    "answer": "By the command of confessing at least once a year is meant that we\r\nare obliged, under pain of mortal sin, to go to Confession within the\r\nyear."
+                },
+                {
+                    "number": "400",
+                    "question": "What sin does he commit who neglects to receive Communion during\r\nthe Easter time?",
+                    "answer": "He who neglects to receive Communion during the Easter time commits a\r\nmortal sin."
+                },
+                {
+                    "number": "401",
+                    "question": "What is the Easter time?",
+                    "answer": "The Easter time is, in this country, the time between the first\r\nSunday of Lent and Trinity Sunday."
+                },
+                {
+                    "number": "402",
+                    "question": "Are we obliged to contribute to the support of our pastors?",
+                    "answer": "We are obliged to contribute to the support of our pastors, and to\r\nbear our share in the expenses of the Church and school."
+                }
+            ]
+        },
+        {
+            "number": 33,
+            "ordinal": "THIRTY-THIRD",
+            "title": "ON THE LAST JUDGMENT AND THE RESURRECTION, HELL, PURGATORY, AND HEAVEN",
+            "questions": [
+                {
+                    "number": "408",
+                    "question": "When will Christ judge us?",
+                    "answer": "Christ will judge us immediately after our death, and on the last\r\nday."
+                },
+                {
+                    "number": "409",
+                    "question": "What is the judgment called which we have to undergo immediately\r\nafter death?",
+                    "answer": "The judgment we have to undergo immediately after death is called the\r\nParticular Judgment."
+                },
+                {
+                    "number": "410",
+                    "question": "What is the judgment called which all men have to undergo on the\r\nlast day?",
+                    "answer": "The judgment which all men have to undergo on the last day is called\r\nthe General Judgment."
+                },
+                {
+                    "number": "412",
+                    "question": "What are the rewards or punishments appointed for men's souls\r\nafter the Particular Judgment?",
+                    "answer": "The rewards or punishments appointed for men's souls after the\r\nParticular Judgment are Heaven, Purgatory, and Hell."
+                },
+                {
+                    "number": "413",
+                    "question": "What is Hell?",
+                    "answer": "Hell is a state to which the wicked are condemned, and in which they\r\nare deprived of the sight of God for all eternity, and are in dreadful\r\ntorments."
+                },
+                {
+                    "number": "414",
+                    "question": "What is Purgatory?",
+                    "answer": "Purgatory is a state in which those suffer for a time who die guilty\r\nof venial sins, or without having satisfied for the punishment due to\r\ntheir sins."
+                },
+                {
+                    "number": "417",
+                    "question": "Will our bodies share in the reward or punishment of our souls?",
+                    "answer": "Our bodies will share in the reward or punishment of our souls,\r\nbecause through the resurrection they will again be united to them."
+                },
+                {
+                    "number": "420",
+                    "question": "What is Heaven?",
+                    "answer": "Heaven is the state of everlasting life in which we see God face to\r\nface, are made like unto Him in glory, and enjoy eternal happiness."
+                }
+            ]
+        }
+    ]
+}
