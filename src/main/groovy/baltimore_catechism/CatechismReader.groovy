@@ -190,7 +190,7 @@ public class CatechismReader extends Catechism1BaseListener {
     def bc = CatechismReader.readCatechism(inputFile.newReader())
     println bc
     new File('baltimore_catechism.json').text = CatechismReader.catechism2Json(bc)
-    new File('baltimore_catechism.xml').text = CatechismReader.catechism2Xml(bc)
+    //new File('baltimore_catechism.xml').text = CatechismReader.catechism2Xml(bc)
   }
  
 }
