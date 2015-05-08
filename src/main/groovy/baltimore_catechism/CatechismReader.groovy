@@ -19,6 +19,37 @@ public class CatechismReader extends Catechism1BaseListener {
   def aa
   def list
 
+  static int ordinal2int(String ord) {
+    def ords = [FIRST:     1,
+                SECOND:      2,
+                THIRD:       3,
+                FOURTH:      4,
+                FIFTH:       5,
+                SIXTH:       6,
+                SEVENTH:     7,
+                EIGHTH:      8,
+                NINTH:       9,
+                TENTH:       10,
+                ELEVENTH:    11,
+                TWELFTH:     12,
+                THIRTEENTH:  13,
+                FOURTEENTH:  14,
+                FIFTEENTH:   15,
+                SIXTEENTH:   16,
+                SEVENTEENTH: 17,
+                EIGHTEENTH:  18,
+                NINTEENTH:   19,
+                TWENTIETH:   20,
+                TWENTY:      20,
+                THIRTIETH:   30,
+                THIRTY:      30]
+    ord.toUpperCase().split('-').inject(0) {
+      n, segment ->
+        n += (ords[segment])?:0
+        n
+    }
+  }
+
   Catechism1Parser parser;
   TokenStream tokens = parser.getTokenStream();
   
@@ -46,7 +77,9 @@ public class CatechismReader extends Catechism1BaseListener {
    * <p>start a new lesson.</p>
    */
   @Override public void enterLesson(Catechism1Parser.LessonContext ctx) { 
-    lesson = [number: "${ctx.ordinal().text}", title: "${tokens.getText(ctx.title())}", questions: []]
+    def ord = ctx.ordinal().text
+    lesson = [number: ordinal2int(ord), ordinal: "${ord}", 
+              title: "${tokens.getText(ctx.title())}", questions: []]
   }
 
   /**
