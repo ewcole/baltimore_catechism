@@ -29,10 +29,12 @@
 - [[file:LICENSE][LICENSE]]
 - [[file:README.md][README.md]]
 - [[file:README.org][README.org]]
+- [[file:baltimore_catechism.json][baltimore_catechism.json]]
 - [[file:build.cmd][build.cmd]]
 - [[file:build.gradle][build.gradle]]
 - [[file:grun.cmd][grun.cmd]]
 - [[file:run.cmd][run.cmd]]
+- [[file:working_files.org][working_files.org]]
 ** src/main
 *** antlr
 - [[file:src/main/antlr/Catechism1.g4][Catechism1.g4]]
