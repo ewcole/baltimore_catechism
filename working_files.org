@@ -27,6 +27,8 @@
 - [[file:.gitignore][.gitignore]]
 - [[file:GutenbergBaltimoreCatechism1.txt][GutenbergBaltimoreCatechism1.txt]]
 - [[file:LICENSE][LICENSE]]
+- [[file:Parsing_the_Baltimore_Catechism_Using_ANTLR4.md][Parsing_the_Baltimore_Catechism_Using_ANTLR4.md]]
+- [[file:Parsing_the_Baltimore_Catechism_Using_ANTLR4.org][Parsing_the_Baltimore_Catechism_Using_ANTLR4.org]]
 - [[file:README.md][README.md]]
 - [[file:README.org][README.org]]
 - [[file:baltimore_catechism.json][baltimore_catechism.json]]

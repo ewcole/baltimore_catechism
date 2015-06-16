@@ -33,4 +33,27 @@ also delightfully public domain, so it seems worthwhile to convert the text
 into a machine-readable format, such as JSON.  This would make it possible to
 write flash cards or games using the questions and answers.
   
-The [[file:GutenbergBaltimoreCatechism1.txt][text of the catechism]] is taken from the Project Gutenberg edition found at [[http://archive.org/stream/baltimorecatechi14551gut/14551.txt][archive.org]].
+The [[file:GutenbergBaltimoreCatechism1.txt][text of the catechism]] is taken from the Project Gutenberg edition found at [[http://archive.org/stream/baltimorecatechi14551gut/14551.txt][archive.org]].  It is quite regular, so one can hope to write a grammar that will parse it correctly.  For instance, here is lesson 26.
+
+#+include: GutenbergBaltimoreCatechism1.txt example :lines "946-988"
+
+* What is ANTLR?
+
+ANTLR is a Java program that reads grammar files and writes Java programs that recognize text data that is written according to that grammar.  In other words, it is a compiler compiler.
+
+* Building the project using Gradle
+
+In order to make ANTLR a workable part of a big project, it is necessary to integrate it with our build tool, which in our case means [[http://gradle.org/][Gradle]].   There is an ANTLR4 plugin for Gradle, but I have never had any success with it, so we will create the file from scratch, following a [[https://github.com/ae6rt/gradle-antlr4-template/blob/master/build.gradle][template]] from GitHub.
+
+** The build script
+The default build script for a Gradle project is build.gradle (see the 
+[[*build.gradle][source code]] below).  Gradle uses a Groovy DSL that abstracts away much of the details you need for building the project.
+
+The first section loads the groovy plugin, which defines most of the tasks you would perform when developing a Java or Groovy program, and defines some variables that will be used when generating code.
+
+#+INCLUDE: build.gradle src groovy :lines "1-31"
+
+
+* Source Code
+** build.gradle
+#+INCLUDE: build.gradle src groovy -n
