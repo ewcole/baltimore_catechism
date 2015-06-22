@@ -34,6 +34,7 @@ dependencies {
   compile 'org.codehaus.groovy:groovy-all:2.4.3'
 
   runtime 'org.codehaus.groovy:groovy-all:2.4.3'
+  runtime 'org.antlr:antlr4:4.5'
 
   // use ANTLR version 4
   antlr4 group: "org.antlr", name: "antlr4", version: "4.5"

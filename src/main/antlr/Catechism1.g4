@@ -7,6 +7,7 @@ file: text catechism  MORNING_PRAYERS text;
 catechism: CRLF CATECHISM CRLF+ lesson+;
 
 lesson: CRLF LESSON ordinal CRLF title question+;
+
 question: CRLF+  qNum QQ qText CRLF AA aText list? CRLF+;
 qNum: QNUM;
 qText: text;
