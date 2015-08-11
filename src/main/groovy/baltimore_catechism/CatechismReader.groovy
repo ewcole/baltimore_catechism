@@ -151,11 +151,20 @@ public class CatechismReader extends Catechism1BaseListener {
   /** Parse the input stream using the Catechism1 parser
    */
   public static readCatechism(Reader r) {
+    // Create an ANTLR input stream from the reader
     def input = new ANTLRInputStream(r);
+    // Create a lexer, which breaks the input stream
+    //    text into tokens that can be read by the 
+    //    parser.  This class was generated from the grammar.
     def lexer = new Catechism1Lexer(input);
+    // Create a token stream from the lexer.  This is 
+    //    independent of our grammar
     def tokens = new CommonTokenStream(lexer);
+    // The parser is derived from our grammar.
     def parser = new Catechism1Parser(tokens);
+    // Run the parser starting with the file rule.
     def tree = parser.file()
+    // Walk the tree and return the results.
     def walker = new ParseTreeWalker()
     def cr = new CatechismReader(parser)
     walker.walk(cr, tree)
@@ -167,30 +176,13 @@ public class CatechismReader extends Catechism1BaseListener {
     j.prettyPrint(j.toJson(catechism));
   }
 
-  // public static String catechism2Xml(def catechism) {
-  //   def s = new StringWriter();
-  //   def x = new MarkupBuilder(s);
-  //   x.baltimore_catechism {
-  //     lessons {
-  //       catechism?.lessons?.each {
-  //         lesson ->
-  //           lesson(number: it.number, title: it.title, ordinal: it.ordinal)
-  //       }
-  //     }
-  //   }
-  //   return s.toString()
-  // }
   /** Read the input file and write the output file */
   public static void main(String[] args) {
-    // def cli = new CliBuilder(usage: "parse the input file");
-    // cli.j(longOpt: 'json_file', args: 1, "JSON output file name");
-    // def opt = cli.parse(args);
     def inputFile = new File(args[0]);
     assert inputFile.exists()
     def bc = CatechismReader.readCatechism(inputFile.newReader())
     println bc
     new File('baltimore_catechism.json').text = CatechismReader.catechism2Json(bc)
-    //new File('baltimore_catechism.xml').text = CatechismReader.catechism2Xml(bc)
   }
  
 }
