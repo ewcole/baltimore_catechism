@@ -2,3 +2,5 @@
 \#*\#
 .gradle/
 build/
+nohup.out
+Thumbs.db
