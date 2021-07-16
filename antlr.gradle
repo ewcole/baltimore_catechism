@@ -1,10 +1,11 @@
 
+apply plugin: 'groovy';
+apply plugin: 'antlr';
 
-
-plugins {
-    id 'antlr'
-    id 'groovy'
-}
+// plugins {
+//     id 'antlr'
+//     id 'groovy'
+// }
 
 
 
