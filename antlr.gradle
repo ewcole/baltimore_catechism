@@ -18,4 +18,20 @@ dependencies {
     implementation 'org.codehaus.groovy:groovy-all:2.4.15'
 }
 
+// This defines some variables we will use in generating the ANTLR4 objects.
+ext.antlr = [
+             // the package the generated source files will belong to.
+ grammarpackage: "baltimore_catechism",
 
+             ]
+sourceSets {
+  main {
+    groovy {
+      // override the default locations, rather than adding additional ones
+      srcDirs = ['src/groovy', 'src/java'] 
+    }
+    java {
+      srcDirs = [] // don't compile Java code twice 
+    }
+  }
+}
