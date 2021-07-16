@@ -2,17 +2,13 @@
 apply plugin: 'groovy';
 apply plugin: 'antlr';
 
-// plugins {
-//     id 'antlr'
-//     id 'groovy'
-// }
-
-
+def antlrGeneratedSrcDir = "build/generated-src/antlr/main";
 
 repositories {
     mavenCentral()
 }
 
+String antlrSourceDir = 'src/main/antlr' 
 dependencies {
     // antlr "org.antlr:antlr:3.5.2" // use ANTLR version 3
     antlr "org.antlr:antlr4:4.5" // use ANTLR version 4
@@ -23,16 +19,45 @@ dependencies {
 ext.antlr = [
              // the package the generated source files will belong to.
  grammarpackage: "baltimore_catechism",
+ "package": "baltimore_catechism",
+ // Where do you look for the grammar files?
+  antlrSource: antlrSourceDir,
+             grammarPackage: "baltimore_catechism",
 
+ // Where do you put the Java source code that ANTLR4 creates?
+             destinationDir: "build/generated-sources/java"
              ]
 sourceSets {
   main {
     groovy {
       // override the default locations, rather than adding additional ones
-      srcDirs = ['src/groovy', 'src/java'] 
+      // srcDirs = ['src/main/groovy',
+      //            'src/main/java',
+      //            antlrGeneratedSrcDir] 
     }
     java {
-      srcDirs = [] // don't compile Java code twice 
+      srcDirs = ['src/main/java',
+                 antlrGeneratedSrcDir]
+      // don't compile Java code twice 
     }
   }
 }
+
+
+compileJava.dependsOn     "generateGrammarSource"
+compileTestJava.dependsOn "generateTestGrammarSource"
+
+compileGroovy.dependsOn     "generateGrammarSource"
+compileTestGroovy.dependsOn "generateTestGrammarSource"
+
+task compile() {
+  dependsOn "compileGroovy"
+  dependsOn "compileJava"
+  dependsOn "compileTestGroovy"
+  dependsOn "compileTestJava"
+}
+
+generateGrammarSource() {
+  arguments += ["-package", "baltimore_catechism"]
+}
+build.dependsOn "compile"
