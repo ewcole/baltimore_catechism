@@ -1,6 +1,7 @@
 
 apply plugin: 'groovy';
 apply plugin: 'antlr';
+apply plugin: 'application';
 
 def antlrGeneratedSrcDir = "build/generated-src/antlr/main";
 

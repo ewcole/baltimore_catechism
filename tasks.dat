@@ -1,0 +1,67 @@
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project
+------------------------------------------------------------
+
+Build tasks
+-----------
+assemble - Assembles the outputs of this project.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+clean - Deletes the build directory.
+jar - Assembles a jar archive containing the main classes.
+testClasses - Assembles test classes.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Documentation tasks
+-------------------
+groovydoc - Generates Groovydoc API documentation for the main source code.
+javadoc - Generates Javadoc API documentation for the main source code.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'baltimore_catechism'.
+components - Displays the components produced by root project 'baltimore_catechism'. [incubating]
+dependencies - Displays all dependencies declared in root project 'baltimore_catechism'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'baltimore_catechism'.
+dependentComponents - Displays the dependent components of components in root project 'baltimore_catechism'. [incubating]
+help - Displays a help message.
+model - Displays the configuration model of root project 'baltimore_catechism'. [incubating]
+outgoingVariants - Displays the outgoing variants of root project 'baltimore_catechism'.
+projects - Displays the sub-projects of root project 'baltimore_catechism'.
+properties - Displays the properties of root project 'baltimore_catechism'.
+tasks - Displays the tasks runnable from root project 'baltimore_catechism'.
+
+Verification tasks
+------------------
+check - Runs all checks.
+test - Runs the unit tests.
+
+Other tasks
+-----------
+compileGroovy - Compiles the main Groovy source.
+compileJava - Compiles main Java source.
+compileTestGroovy - Compiles the test Groovy source.
+compileTestJava - Compiles test Java source.
+generateGrammarSource - Processes the main Antlr grammars.
+generateTestGrammarSource - Processes the test Antlr grammars.
+prepareKotlinBuildScriptModel
+processResources - Processes main resources.
+processTestResources - Processes test resources.
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+Pattern: upload<ConfigurationName>: Assembles and uploads the artifacts belonging to a configuration.
+
+BUILD SUCCESSFUL in 4s
+1 actionable task: 1 executed
