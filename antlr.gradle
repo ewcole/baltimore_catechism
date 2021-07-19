@@ -58,6 +58,10 @@ task compile() {
   dependsOn "compileTestJava"
 }
 
+application {
+  mainClass = 'baltimore_catechism.CatechismReader';
+}
+
 generateGrammarSource() {
   arguments += ["-package", "baltimore_catechism"]
 }
